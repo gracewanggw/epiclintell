@@ -34,13 +34,12 @@ function About(){
                         <>
                             <Typewriter font="lg" text="Welcome to Epiclintell" delay={120}></Typewriter>
                             <h2 style={{color: '#2E3B55' }}>
-                                I love developing solutions through code and exploring the world through data 🚀  
+                                A company with 15 years of experience in real-world analytics for the life sciences industry.
                             </h2>
                             <p>
-                                I am a senior at Dartmouth College pursuing a dual major in Computer Science and Economics with a concentration in Math.
-                                I am passionate about translating ideas into impactful applications and uncovering meaningful insights from data.
-                                Whether it's crafting code for software solutions or delving into datasets to extract valuable narratives, I love that every line of code and every data point tell a unique story. 
-                                Beyond coding, you can find me playing pickleball, cooking, or solving puzzles.
+                                Our team consists of highly skilled professional with expertise in epidemiology, data analytics,
+                                 and statistical programming. Our proven track record in delievering impactful insights, 
+                                 our client-focused approach, and our commitment to data integrity and accuracy sets us apart.
                             </p>
                             <Grid container item spacing={2}>
                                 <Grid item xs={4}>

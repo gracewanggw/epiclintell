@@ -9,6 +9,7 @@ import Hidden from "@mui/material/Hidden";
 function Navbar(){
     const navItems = [
         {title: 'About', link: '#about'},
+        {title: 'Services', link: '#experience'}
     ];
     
     return (

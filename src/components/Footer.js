@@ -18,7 +18,7 @@ function Footer(){
                             textDecoration: 'none',
                         }}
                     >
-                        Designed and Developed by Grace Wang (2023)
+                        Designed and Developed by Grace Wang for Epiclintell LLC.
                     </Typography>
                 </Grid>
             </Grid>

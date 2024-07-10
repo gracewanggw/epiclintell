@@ -4,6 +4,8 @@ import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import Container from "@mui/material/Container";
+import Divider from "@mui/material/Divider";
 
 function ContactForm({handleClose}){
     const [firstName, setFirstName] = useState('');
@@ -56,68 +58,76 @@ function ContactForm({handleClose}){
       };
 
     return (
-        <Box
-            component="form"
-            sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                '& > :not(style)': { m: 1 },
-            }}
-            noValidate
-            autoComplete="off"
-            onSubmit={handleSubmit}
-        >
-            <div style={{display: 'flex',
-                flexDirection: 'row'}}>
-                <TextField 
-                    sx={{padding: '4px'}}
-                    required
-                    id="first-name"
-                    label="First Name"
-                    variant="outlined"
-                    onChange={e => setFirstName(e.target.value)}
-                    value={firstName} 
-                />
-                <TextField
-                    sx={{padding: '4px'}}
-                    required
-                    id="last-name"
-                    label="Last Name"
-                    variant="outlined"
-                    onChange={e => setLastName(e.target.value)}
-                    value={lastName} 
-                />
-            </div>
-            <div>
-                <TextField
-                    sx={{padding: '4px'}}
-                    fullWidth
-                    required
-                    id="email"
-                    label="Email"
-                    variant="outlined"
-                    onChange={e => setEmail(e.target.value)}
-                    value={email}
-                    />
-            </div>
-            <div>
-                <TextField
-                    id="message"
-                    label="Message"
-                    multiline
-                    fullWidth
-                    rows={6}
-                    sx={{padding: '4px'}}
-                    onChange={e => setMessage(e.target.value)}
-                    value={message}
-                />
-            </div>
-            <div style={{display: 'flex', justifyContent: 'flex-end'}}>
-                <Button variant='contained' type='submit' disabled={!isFormValid}>
-                    Submit
-                </Button>
-            </div>
-        </Box>
+        <section id='contact' style={{paddingTop: '48px', paddingBottom:'12px'}}>
+            <Divider></Divider>
+            <Container maxWidth="md" style={{paddingTop: '48px'}}>
+                <h1 style={{textAlign: 'center', fontSize: '48px', color: '#2E3B55' }}>
+                        Contact Us
+                </h1>
+                <Box
+                    component="form"
+                    sx={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        '& > :not(style)': { m: 1 },
+                    }}
+                    noValidate
+                    autoComplete="off"
+                    onSubmit={handleSubmit}
+                >
+                    <div style={{display: 'flex',
+                        flexDirection: 'row'}}>
+                        <TextField 
+                            sx={{padding: '4px'}}
+                            required
+                            id="first-name"
+                            label="First Name"
+                            variant="outlined"
+                            onChange={e => setFirstName(e.target.value)}
+                            value={firstName} 
+                        />
+                        <TextField
+                            sx={{padding: '4px'}}
+                            required
+                            id="last-name"
+                            label="Last Name"
+                            variant="outlined"
+                            onChange={e => setLastName(e.target.value)}
+                            value={lastName} 
+                        />
+                    </div>
+                    <div>
+                        <TextField
+                            sx={{padding: '4px'}}
+                            fullWidth
+                            required
+                            id="email"
+                            label="Email"
+                            variant="outlined"
+                            onChange={e => setEmail(e.target.value)}
+                            value={email}
+                            />
+                    </div>
+                    <div>
+                        <TextField
+                            id="message"
+                            label="Message"
+                            multiline
+                            fullWidth
+                            rows={6}
+                            sx={{padding: '4px'}}
+                            onChange={e => setMessage(e.target.value)}
+                            value={message}
+                        />
+                    </div>
+                    <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+                        <Button variant='contained' type='submit' disabled={!isFormValid}>
+                            Submit
+                        </Button>
+                    </div>
+                </Box>
+            </Container>
+        </section>
     )
 }
 

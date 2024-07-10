@@ -55,31 +55,23 @@ export const projects = [
     },
   ];
 
-export const experience = [
+export const services = [
     {
-        title: "Data Scientist, Software Engineer, and Mentor",
-        company: "DALI Lab",
-        companyLink: "https://dali.dartmouth.edu/",
-        description: "In my time at DALI, I started as a full-stack software engineer then data scientist working on long-term projects with clients such as the National Park Service and Dartmouth professors. Now, I have become a developer mentor so I am able to give back by providing guidance to new developers in the lab.",
-        startDate: "03/2021",
-        endDate: "present"
+        title: "Epidemiology Study Design",
+        description: "We collaborate with clinets to develop tailored epidemiological studies, ensuring robust methodologies and optimal outcomes.",
     },
     {
-        title: "Software Engineering Intern",
-        company: "Goldman Sachs",
-        companyLink: "https://www.goldmansachs.com/",
-        description: "During this 10-week summer internship, I worked on building a new tool for decision scientists to better catalog ML/ AI assets and SDLCs. The novelty of the project afforded me near complete ownership in both design and development, allowing me to implement product research with end users to inform and support my decisions.",
-        startDate: "06/2023",
-        endDate: "08/2023"
+      title: "RWD Source Identification, Evaluation, and Acquisition",
+      description: "Our experts identify and evaluate the most suitable real-world data sources, ensuring reliable and high-quality data for your projects.",
     },
     {
-        title: "Software Engineering and Data Science Intern",
-        company: "Johns Hopkins Univeristy Applied Physics Lab",
-        companyLink: "https://www.jhuapl.edu/",
-        description: "During this 15-week internship, I applied my software engineering and data science skills by using graph-based techniques and custom training of SpaCy models to create an entity disambiguation system. I also researched and implemented 8 single-document summarization models and incorporated the best-performing model into a document processing pipeline and API endpoint.",
-        startDate: "12/2022",
-        endDate: "03/2023"
-    }
+      title: "SQL, SAS, R, and Python Programming",
+      description: "We leverage industry-standard programming languages to efficiently implement and execute studies, delievering accurate and timely results.",
+    },
+    {
+      title: "Data Visualization and Dashboard Creation",
+      description: "We transform complex data into clear, visually appealing, and interactive dashboards, enabling data-driven decision-making.",
+    },
 ]
 
 export const frontendSkills = [

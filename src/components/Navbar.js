@@ -8,7 +8,7 @@ import Hidden from "@mui/material/Hidden";
 
 function Navbar(){
     const navItems = [
-
+        {title: 'About', link: '#about'},
     ];
     
     return (
@@ -22,13 +22,14 @@ function Navbar(){
                     sx={{
                         mr: 2,
                         display: { xs: 'none', md: 'flex' },
+                        // fontFamily: 'monospace',
                         fontWeight: 700,
                         letterSpacing: '.2rem',
                         color: 'inherit',
                         textDecoration: 'none',
                       }}
                 >
-                    DEGANG WANG
+                    GRACE WANG
                 </Typography>
                 <Hidden xsDown implementation="css">
                     <Box sx={{ display: 'flex' }}>

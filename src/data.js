@@ -58,7 +58,7 @@ export const projects = [
 export const services = [
     {
         title: "Epidemiology Study Design",
-        description: "We collaborate with clinets to develop tailored epidemiological studies, ensuring robust methodologies and optimal outcomes.",
+        description: "We collaborate with clients to develop tailored epidemiological studies, ensuring robust methodologies and optimal outcomes.",
     },
     {
       title: "RWD Source Identification, Evaluation, and Acquisition",

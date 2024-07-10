@@ -6,7 +6,6 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typewriter from './Typewriter';
 import ContactForm from './ContactForm';
-import LineChart from "./LineChart";
 
 const style = {
     position: 'absolute',

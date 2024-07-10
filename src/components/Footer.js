@@ -6,7 +6,7 @@ function Footer(){
             style={{ backgroundColor: 'rgb(245, 245, 243)' }}
         >
             <Grid container>
-                <Grid item xs={6}>
+                <Grid item xs={12}>
                     <Typography
                         variant="caption"
                         sx={{
@@ -19,23 +19,6 @@ function Footer(){
                         }}
                     >
                         Designed and Developed by Grace Wang (2023)
-                    </Typography>
-                </Grid>
-                <Grid item xs={6}>
-                    <Typography
-                        variant="caption"
-                        component="a"
-                        href="https://github.com/gracewanggw/site"
-                        target="_blank" rel="noopener noreferrer"
-                        sx={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            height: '100%',
-                            color: '#aaa',
-                        }}
-                    >
-                    Source Code
                     </Typography>
                 </Grid>
             </Grid>

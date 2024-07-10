@@ -24,6 +24,7 @@ function Experience() {
     }, [])
 
     useEffect(() => {
+        var obs = lineChartRef.current
         const options = {
             root: null,
             rootMargin: "0px",
@@ -37,8 +38,8 @@ function Experience() {
         }
 
         return () => {
-            if (lineChartRef.current) {
-            observer.unobserve(lineChartRef.current);
+            if (obs) {
+            observer.unobserve(obs);
             }
         };
     }, []);

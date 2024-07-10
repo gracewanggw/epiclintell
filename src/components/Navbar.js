@@ -29,7 +29,7 @@ function Navbar(){
                         textDecoration: 'none',
                       }}
                 >
-                    GRACE WANG
+                    DEGANG WANG
                 </Typography>
                 <Hidden xsDown implementation="css">
                     <Box sx={{ display: 'flex' }}>
